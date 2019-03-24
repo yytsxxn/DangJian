@@ -17,6 +17,7 @@ a{
 }
 img{
     width: 1000px;
+    margin-top: -1px;
 }
 .list-menu {
     width: 225px;
