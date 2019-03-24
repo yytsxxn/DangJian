@@ -13,25 +13,28 @@ a{
     width: 1000px;
     height: 750px;
     margin: 0 auto;
+    border: 1px solid #dfdfdf;
 }
 img{
     width: 1000px;
+    margin-top: -1px;
 }
 .list-menu {
-    width: 231px;
+    width: 225px;
     height: 100%;
-    margin-left: 5px;
+    margin-left: 20px;
     float: left;
-    margin-top: -4px;
+    margin-top: 10px;
+    border: 1px solid #dfdfdf;
 }
 .box_hd{
     background: #941515;
-    width: 231px;
+    width: 225px;
     height: 30px;
     line-height: 30px;
     font-size: 15px;
     color: white;
-    margin-left: -5px;
+    
     margin-bottom: 5px;
     position: relative;
 }
@@ -50,15 +53,18 @@ img{
     color: black;
 }
 .list-content{
-    width: 764px;
+    width: 720px;
     float: left;
+    margin-left: 5px;
 }
 .list-crumb{
     color: #969696;
     height: 30px;
     line-height: 30px;
+    font-size: 14px;
     border-bottom: 1px solid #dfdfdf;
-    margin-bottom: 15px;
+    margin-top: 2px;
+    margin-bottom: 10px;
 }
 .list-crumb a{
     color: #969696;
