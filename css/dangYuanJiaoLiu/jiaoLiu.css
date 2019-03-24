@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.content-container{
+    width: 1000px;
+    height: 750px;
+    margin: 0 auto;
+}
+img{
+    width: 1000px;
+}
+.list-menu {
+    width: 231px;
+    height: 100%;
+    margin-left: 5px;
+    float: left;
+    margin-top: -4px;
+}
+.box_hd{
+    background: #941515;
+    width: 231px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    color: white;
+    margin-left: -5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.box_hd h4{
+    margin-left: 5px;
+}
+.box_bd li{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    color: black;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.box_bd li a{
+    color: black;
+}
+.list-content{
+    width: 764px;
+    float: left;
+}
+.list-crumb{
+    color: #969696;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 15px;
+}
+.list-crumb a{
+    color: #969696;
+}
+.list-style{
+    margin: 0 10px;
+    color: black;
+}
+.list-style ul li{
+    border-bottom: 1px dashed #dfdfdf;
+}
+.list-style ul li a{
+    height: 30px;
+    line-height: 30px;
+    color: black;
+}
+.list-style ul li em{
+    float: right;
+    color: black;
+}
+.list-style ul li u{
+    width: 14px;
+    height: 11px;
+    display: inline-block;
+    background: url(../../image/common_img/sprite.jpg);
+    background-position: -180px 0;
+}
+.list-style ul li a:hover{
+    text-decoration: underline;
+}
