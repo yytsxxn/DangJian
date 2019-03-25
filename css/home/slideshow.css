@@ -1,0 +1,49 @@
+#con {
+    position: relative;
+    width: 740px;
+    height: 237px;
+    margin: 0 auto;
+}
+
+.btn-box {
+    list-style: none;
+}
+
+.btn-box li,
+.now {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background: rgba(0, 0, 0, .5);
+    margin-right: 5px;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.img-box img {
+    width: 740px;
+    height: 237px;
+    display: none;
+}
+
+.img-box .active {
+    display: block;
+}
+
+.slide {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+.btn-left {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+.btn-box .sel {
+    background: orangered;
+}
