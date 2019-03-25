@@ -47,10 +47,13 @@ img{
     line-height: 30px;
     color: black;
     font-size: 15px;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 .box_bd li a{
     color: black;
+}
+.box_bd li:hover{
+    background: #969696;
 }
 .list-content{
     width: 720px;
