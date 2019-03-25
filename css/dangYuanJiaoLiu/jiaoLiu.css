@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: url(../../image/sanHui_img/wrapBg.jpg) no-repeat ;
+    background-size:100% 50%;
+}
 ul{
     list-style: none;
 }
 a{
     text-decoration: none;
 }
-
 .content-container{
     width: 1000px;
     height: 750px;
