@@ -28,7 +28,7 @@ body {
     margin: auto;
     /* background: red; */
 } 
-#homepage .box_1{
+/* #homepage .box_1{
     width: 102px;
     height: 30px;
     line-height: 30px;
@@ -38,11 +38,17 @@ body {
     background-image:url(../../image/common_img/button-bg.jpg);
     border:none;
     box-shadow: 2px 2px 1px rgb(34, 30, 30);
+} */
+.list-mian{
+    width: 1200px;
+    /* margin: 15px auto; */
+    height: auto;
+    overflow: hidden;
 }
-#homepage .theme2{
+.list-main-left{
     margin: 5px;
     float: left;
-    width: 350px;
+    width: 300px;
     min-height: 600px;
     border-radius: 8px;
     border-top: #6f0010 3px solid;
@@ -50,25 +56,76 @@ body {
     border-right: #6f0010 1.5px solid;
     border-bottom: #6f0010 1.5px solid;
 }
-.box_1 span{
-    display: inline-block;
-    /* vertical-align:middle;
-    text-align:center; */
+.this-lmname h4{
+    width: 300px;
+    height: 30px;
+    line-height: 10px;
+    text-align: center;
+    font-size: 17px;
+    background: #941515;
+    color: white;
+    margin-bottom: 5px;
+    padding: 15px 0 0 0.5px;
+    position: relative;
+    /* display: inline-block;
+    vertical-align:middle;
+    text-align:center;
     font-size: 17px;
     font-weight:600;
-    color:rgb(99, 2, 15);
+    color:rgb(99, 2, 15); */
 }
-.box_2 li{
+.list-sub{
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 1px;
+}
+ul, li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.list-sub li{
+    height: 43px;
+    width: 300px;
+    overflow: hidden;
+}
+.list-sub li a{
+    height: 42px;
+    line-height: 42px;
+    width: 300px;
+    display: block;
+    background: #fcfafa;
+    border-bottom: #941515 1px solid;
+    padding: 10px;
+}
+a{
+    text-decoration:none;
+    color: #666666;
+}
+
+/* .clearfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+} */
+/* .box_2 li{
     list-style: none;
     
-}
-.box_2 li a{
+} */
+/* .box_2 li a{
     width: 200px;
     height: 30px;
     line-height: 50px;
-    /* display: block; */
+    display: block;
     background: url(../../image/common_img/bg.jpg);
-    border-bottom: #d6d6d6 1px solid;
+    border-bottom: #585353 1px solid;
     color: #6f0010;
     font-weight:600;
     font-family:"微软雅黑";
@@ -77,60 +134,80 @@ body {
     border-radius: 5px;
     box-shadow: 2px 2px 1px rgb(34, 30, 30);
 
-}
-.box_2 li a:hover{
-    background: #e9e2e2;
+} */
+.list-sub li a:hover{
+    /* line-height: 40px; */
+    background: #e2dcdc;
 }
 
 .list-main-right {
     /* display: flex; */
     margin: 5px;
     float:right;
-    width: 500px;
+    width: 570px;
     border-top: #6f0010 3px solid;
     border-left: #6f0010 1.5px solid;
     border-right: #6f0010 1.5px solid;
     border-bottom: #6f0010 1.5px solid;
     border-radius: 8px;
     min-height: 600px;
-    padding: 0 50px;
-    /* background: #fcfcfc; */
+    padding: 0 40px;
+    background: #fcfcfc;
     overflow: hidden;
 }
-.lm_name-clearfix {
+.list-main-right .lm_name{
+    background: #faf6f6;
+    height: 50px;
+    line-height: 50px;
+}
+.list-main-right .lm_name h2{
+    float: left;
+    width: 380px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+}
+.list-main-right .lm_name span{
+    float: right;
+    color: #666666;
+    font-size: 14px;
+}
+.list-main-right .lm_name span a{
+    color: #666666;
+}
+/* .lm_name-clearfix {
     color: #6f0010;
     height: 30px;
     line-height: 30px;
     border-bottom: 1px solid #dfdfdf;
     margin-bottom: 30px;
-}
-.lm_name-clearfix a{
-    color: #6f0010;
-}
+} */
+
 .fy-list{
-    margin: 5px 10px;
+    height: auto;
+    overflow: hidden;
+    margin: 5px auto;
+    padding: 10px 5px;
     color: rgb(163, 160, 160);
 }
-.fy-list ul li{
-    border-bottom: 1px dashed #fcf8f8;
+.fy-list li{
+    line-height: 40px;
+    /* background: #faf6f6; */
+    font-size: 14px;
+    color: #999999 left center no-repeat;
+    padding-left: 15px;
+    border-bottom: #dcdcdc 1px dotted;
+    text-align: right;
 }
-.fy-list ul li a{
-    height: 30px;
-    line-height: 30px;
-    color: rgb(31, 8, 8);
-}
-.fy-list ul li em{
-    float: right;
-    color: rgb(83, 78, 78);
-}
-.fy-list ul li u{
-    width: 14px;
-    height: 11px;
-    display: inline-block;
-    background-position: -180px 0;
+.fy-list li a{
+    color: #666666;
+    float: left;
 }
 .fy-list ul li a:hover{
     text-decoration: underline;
+}
+div{
+    display: block;
 }
 
 
