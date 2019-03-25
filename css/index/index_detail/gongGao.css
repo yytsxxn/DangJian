@@ -23,7 +23,7 @@ body {
 
 }
  .theme1 .img1{
-    height: 300px;
+    height: 280px;
     width: 1000px;
     margin: auto;
     /* background: red; */
@@ -52,9 +52,9 @@ body {
     min-height: 600px;
     border-radius: 8px;
     border-top: #6f0010 3px solid;
-    border-left: #6f0010 1.5px solid;
-    border-right: #6f0010 1.5px solid;
-    border-bottom: #6f0010 1.5px solid;
+    border-left: #e5e5e5 1.5px solid;
+    border-right: #e5e5e5 1.5px solid;
+    border-bottom: #e5e5e5 1.5px solid;
 }
 .this-lmname h4{
     width: 300px;
@@ -80,6 +80,7 @@ body {
     overflow: hidden;
     margin-top: 1px;
 }
+
 ul, li{
     list-style-type: none;
     margin: 0;
@@ -138,6 +139,7 @@ a{
 .list-sub li a:hover{
     /* line-height: 40px; */
     background: #e2dcdc;
+    color: #6f0010;
 }
 
 .list-main-right {
@@ -146,9 +148,9 @@ a{
     float:right;
     width: 570px;
     border-top: #6f0010 3px solid;
-    border-left: #6f0010 1.5px solid;
-    border-right: #6f0010 1.5px solid;
-    border-bottom: #6f0010 1.5px solid;
+    border-left: #e5e5e5 1.5px solid;
+    border-right: #e5e5e5 1.5px solid;
+    border-bottom: #e5e5e5 1.5px solid;
     border-radius: 8px;
     min-height: 600px;
     padding: 0 40px;
@@ -195,7 +197,7 @@ a{
     /* background: #faf6f6; */
     font-size: 14px;
     color: #999999 left center no-repeat;
-    padding-left: 15px;
+    padding-left: 2px;
     border-bottom: #dcdcdc 1px dotted;
     text-align: right;
 }
@@ -203,7 +205,15 @@ a{
     color: #666666;
     float: left;
 }
+.fy-list ul li u{
+    width: 15px;
+    height: 11px;
+    display: inline-block;
+    background: url(../../../image/common_img/sprite.jpg);
+    background-position: -180px 0;
+}
 .fy-list ul li a:hover{
+    color: #6f0010;
     text-decoration: underline;
 }
 div{
