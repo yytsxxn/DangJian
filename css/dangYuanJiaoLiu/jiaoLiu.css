@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: url(../../image/sanHui_img/wrapBg.jpg) no-repeat ;
+    background: url(../../image/common_img/wrapBg.jpg) no-repeat ;
     background-size:100% 50%;
 }
 ul{
@@ -12,6 +12,7 @@ ul{
 a{
     text-decoration: none;
 }
+
 .content-container{
     width: 1000px;
     height: 750px;
@@ -57,6 +58,7 @@ img{
 }
 .box_bd li:hover{
     background: #969696;
+    color:#bd2828;
 }
 .list-content{
     width: 720px;
