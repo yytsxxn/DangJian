@@ -1,0 +1,43 @@
+body{
+    background-image: url(../../image/index_img/body_bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.gllogin{
+    width:250px;
+    height:350px;
+    margin:0 auto;
+    background: whitesmoke;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0 10px orange;
+    margin-top:150px;
+    box-sizing: border-box;
+    background-image: url(../../image/index_img/bgg.jpg)
+}
+h4{
+    padding-top: 30px;
+    text-align: center;
+}
+.glinput{
+     display: block;
+     margin:0 auto;
+     margin-top:40px;
+     height: 20px;
+     box-shadow: 0 0 10px #90b5e6;  
+}
+.sub{
+    width:100px;
+    height:30px;
+    font-size: 15px;
+    background:rgba(245, 32, 113, 0.3);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+}
