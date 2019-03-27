@@ -19,6 +19,8 @@ ul{
 .button-box-left{
     margin-left: 20px;
     padding-top: 100px;
+    overflow: hidden;
+    /* position: absolute; */
 }
 .button-box-left button{
     width:102px ;
@@ -29,12 +31,18 @@ ul{
     border-radius: 5px;
     border:none;
     box-shadow: 2px 2px 1px #000;
+    float: left;
 }
 .button-box-left a{
     font-size: 17px;
     font-weight:700;
     color:rgb(99, 2, 15);
 }
+.button-box-left ul{
+    display: none;
+    position: absolute;
+}
+
 .button-box-right{
     float: right;
     margin-top: 10px;
@@ -51,63 +59,66 @@ ul{
     box-shadow: 2px 2px 1px #000;
 
 }
-.button-box-right a{
+.button-box-right a,button{
     font-size: 10px;
     font-weight:700;
     color:rgb(99, 2, 15);
 }
-
-
-/* 
-.hoverlist a{
-    color:rgb(225,225,225); 
+.button-box-left ul li{
     float: left;
+    margin-right: 20px;
+    padding-top :53px;
 }
-.hoverlist ul{
-    display: none;
+.occupy{
+    height: 40px;
+    background:rgb(135, 1, 15);
+    margin-top: 8px;
+    font-size: 15px;
+    color:white;
+    line-height: 40px;
 }
-
-.button-box-left button:hover #alwaysdisplay{
-    10+1+1+100
-    display: none;
+.select1{
+    margin-left: 120px;
 }
-#for-select1:hover .select1{
-    100+1+10
-    display:inline-block;
+.select1 li a{
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
 }
-#for-select2:hover .select2{
-    display: inline;
-}
-.hoverlist{
-    height: 25px;
-    background:rgb(143,12, 27);
-    color:rgb(225,225,225);
-    line-height: 25px;
-}
-.hoverlist li{
-    margin-left:25px;
-    margin-right: 10px;
-} */
-.hoverlist{
-    height: 25px;
-    background:rgb(143,12, 27);
-    color:rgb(225,225,225);
-    line-height: 25px;
-}
-.hoverlist a{
-    color:rgb(225,225,225); 
-    float: left;
-    /* display: none; */
-}
-.select1 {
-    display: none;
-}
-#for-select1 :hover .select1{
-     display: block;
-}
-.hoverlist ul{
-    display: none;
-}
-#alwaysdisplay{
+#for1:hover .select1{
     display: block;
 }
+#for2:hover .select2{
+    display: block;
+}
+#for3:hover .select3{
+    display: block;
+}
+#for4:hover .select4{
+    display: block;
+}
+.select2 li a{
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.select3 li a{
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.select4 li a{
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.select2{
+    margin-left: 250px;
+}
+.select3{
+    margin-left: 380px;
+}
+.select4{
+    margin-left:510px;
+}
+
