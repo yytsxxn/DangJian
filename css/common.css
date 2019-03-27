@@ -5,9 +5,12 @@
 a{
     text-decoration:none;
 }
+ul{
+    list-style: none;
+}
 .wrapper{
     width: 1000px;
-    height: 145px;
+    height: 180px;
     margin:0 auto;
     background: url(../image/common_img/banner-bg.jpg) no-repeat;
     background-size: 1000px;
@@ -16,6 +19,8 @@ a{
 .button-box-left{
     margin-left: 20px;
     padding-top: 100px;
+    overflow: hidden;
+    /* position: absolute; */
 }
 .button-box-left button{
     width:102px ;
@@ -26,12 +31,18 @@ a{
     border-radius: 5px;
     border:none;
     box-shadow: 2px 2px 1px #000;
+    float: left;
 }
 .button-box-left a{
     font-size: 17px;
     font-weight:700;
     color:rgb(99, 2, 15);
 }
+.button-box-left ul{
+    display: none;
+    position: absolute;
+}
+
 .button-box-right{
     float: right;
     margin-top: 10px;
@@ -48,8 +59,66 @@ a{
     box-shadow: 2px 2px 1px #000;
 
 }
-.button-box-right a{
+.button-box-right a,button{
     font-size: 10px;
     font-weight:700;
     color:rgb(99, 2, 15);
 }
+.button-box-left ul li{
+    float: left;
+    margin-right: 20px;
+    padding-top :53px;
+}
+.occupy{
+    height: 40px;
+    background:rgb(135, 1, 15);
+    margin-top: 8px;
+    font-size: 15px;
+    color:white;
+    line-height: 40px;
+}
+.select1{
+    margin-left: 120px;
+}
+.select1 li a{
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+}
+#for1:hover .select1{
+    display: block;
+}
+#for2:hover .select2{
+    display: block;
+}
+#for3:hover .select3{
+    display: block;
+}
+#for4:hover .select4{
+    display: block;
+}
+.select2 li a{
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.select3 li a{
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.select4 li a{
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.select2{
+    margin-left: 250px;
+}
+.select3{
+    margin-left: 380px;
+}
+.select4{
+    margin-left:510px;
+}
+

@@ -28,17 +28,7 @@ body {
     margin: auto;
     /* background: red; */
 } 
-/* #homepage .box_1{
-    width: 102px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    margin-right: 25px;
-    border-radius: 5px;
-    background-image:url(../../image/common_img/button-bg.jpg);
-    border:none;
-    box-shadow: 2px 2px 1px rgb(34, 30, 30);
-} */
+
 .list-mian{
     width: 1200px;
     /* margin: 15px auto; */
@@ -67,12 +57,7 @@ body {
     margin-bottom: 5px;
     padding: 15px 0 0 0.5px;
     position: relative;
-    /* display: inline-block;
-    vertical-align:middle;
-    text-align:center;
-    font-size: 17px;
-    font-weight:600;
-    color:rgb(99, 2, 15); */
+   
 }
 .list-sub{
     width: 300px;
@@ -109,33 +94,7 @@ a{
     color: #666666;
 }
 
-/* .clearfix:after{
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-} */
-/* .box_2 li{
-    list-style: none;
-    
-} */
-/* .box_2 li a{
-    width: 200px;
-    height: 30px;
-    line-height: 50px;
-    display: block;
-    background: url(../../image/common_img/bg.jpg);
-    border-bottom: #585353 1px solid;
-    color: #6f0010;
-    font-weight:600;
-    font-family:"微软雅黑";
-    font-size: 15px;
-    margin-left: 25px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 1px rgb(34, 30, 30);
 
-} */
 .list-sub li a:hover{
     /* line-height: 40px; */
     background: #e2dcdc;
@@ -164,10 +123,11 @@ a{
 }
 .list-main-right .lm_name h2{
     float: left;
-    width: 380px;
+    width: 400px;
     font-size: 18px;
     color: #333333;
     font-weight: bold;
+    padding-left: 100px;
 }
 .list-main-right .lm_name span{
     float: right;
@@ -177,13 +137,7 @@ a{
 .list-main-right .lm_name span a{
     color: #666666;
 }
-/* .lm_name-clearfix {
-    color: #6f0010;
-    height: 30px;
-    line-height: 30px;
-    border-bottom: 1px solid #dfdfdf;
-    margin-bottom: 30px;
-} */
+
 
 .fy-list{
     height: auto;
@@ -192,26 +146,11 @@ a{
     padding: 10px 5px;
     color: rgb(163, 160, 160);
 }
-.fy-list li{
-    line-height: 40px;
-    /* background: #faf6f6; */
-    font-size: 14px;
-    color: #999999 left center no-repeat;
-    padding-left: 2px;
-    border-bottom: #dcdcdc 1px dotted;
-    text-align: right;
+.fy-list h2{
+    color: rgb(58, 54, 54);
 }
-.fy-list li a{
-    color: #666666;
-    float: left;
-}
-.fy-list ul li u{
-    width: 15px;
-    height: 11px;
-    display: inline-block;
-    background: url(../../../image/common_img/sprite.jpg);
-    background-position: -180px 0;
-}
+
+
 .fy-list ul li a:hover{
     color: #68000e;
     text-decoration: underline;
@@ -222,8 +161,3 @@ div{
 
 
 
-/* #theme .img1{
-    width: 1000px;
-    height: 145px;
-    display: block;
-}

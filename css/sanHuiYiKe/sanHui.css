@@ -58,6 +58,7 @@ img{
 }
 .box_bd li:hover{
     background: #969696;
+    color:rgba(255, 0, 0, 0.747);
 }
 .list-content{
     width: 720px;
