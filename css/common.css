@@ -5,9 +5,12 @@
 a{
     text-decoration:none;
 }
+ul{
+    list-style: none;
+}
 .wrapper{
     width: 1000px;
-    height: 145px;
+    height: 180px;
     margin:0 auto;
     background: url(../image/common_img/banner-bg.jpg) no-repeat;
     background-size: 1000px;
@@ -52,4 +55,59 @@ a{
     font-size: 10px;
     font-weight:700;
     color:rgb(99, 2, 15);
+}
+
+
+/* 
+.hoverlist a{
+    color:rgb(225,225,225); 
+    float: left;
+}
+.hoverlist ul{
+    display: none;
+}
+
+.button-box-left button:hover #alwaysdisplay{
+    10+1+1+100
+    display: none;
+}
+#for-select1:hover .select1{
+    100+1+10
+    display:inline-block;
+}
+#for-select2:hover .select2{
+    display: inline;
+}
+.hoverlist{
+    height: 25px;
+    background:rgb(143,12, 27);
+    color:rgb(225,225,225);
+    line-height: 25px;
+}
+.hoverlist li{
+    margin-left:25px;
+    margin-right: 10px;
+} */
+.hoverlist{
+    height: 25px;
+    background:rgb(143,12, 27);
+    color:rgb(225,225,225);
+    line-height: 25px;
+}
+.hoverlist a{
+    color:rgb(225,225,225); 
+    float: left;
+    /* display: none; */
+}
+.select1 {
+    display: none;
+}
+#for-select1 :hover .select1{
+     display: block;
+}
+.hoverlist ul{
+    display: none;
+}
+#alwaysdisplay{
+    display: block;
 }
